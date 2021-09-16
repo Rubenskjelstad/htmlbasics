@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body{
+  background-color: #6ebaf5;
+}
+
+.header{
+  text-align: center;
+  color: black;
+  margin: 10px;
+  padding: 20px;
+}
+
+.column-left {
+  float: left;
+  padding: 10px;
+  height: 100%;
+  width: 75%;
+  border: 2px solid black;
+  padding-right: 100px;
+  padding-left: 30px;
+}
+.column-right {
+  float: left;
+  padding: 10px;
+  height: 690px;
+  width: 25%;
+  border: 2px solid black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  border: 1px solid black;
+  width:500px;
+  height:400px;
+  border:10px black;
+  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 1px solid black;
+}
+
+h1{
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.footer{
+  margin-top: 4%;
+font-family: "Open Sans", sans-serif;
+font-weight: 100;
+display: flex;
+justify-content: center;
+font-size: 0.85em;
+}
+.tab {
+    display: inline-block;
+    margin-left: 80px;
+}
+.tab1 {
+    display: inline-block;
+    margin-left: 50px;
+}
+.tab2 {
+    display: inline-block;
+    margin-left: 18px;
+}
+.tab3 {
+    display: inline-block;
+    margin-left: 90px;
+}
+.tab4 {
+    display: inline-block;
+    margin-left: 80px;
+}
